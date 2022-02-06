@@ -1,0 +1,28 @@
+nav {
+    background: linear-gradient(to right,#333 100px, #1c1c1c 80%);
+    width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    text-align: right;
+    padding-right: 20px;
+}
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+ul li a {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: .7s;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #b678ff;
+}
+ul li a:hover {
+    color: #b678ff;
+    text-shadow: 2px 2px white;
+    transition: .7s;
+}

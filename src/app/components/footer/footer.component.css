@@ -1,0 +1,38 @@
+nav {
+    background: linear-gradient(to right,#333 100px, #1c1c1c 80%);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 20px;
+}
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+ul li a {
+    font-size: 0.7rem;
+    color: gray;
+    cursor: pointer;
+    transition: .7s;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+ul li a:hover {
+    color: white;
+    transition: .7s;
+}
+img {
+    width: 1.5rem;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+span {
+    color: #b678ff;
+    font-size: 0.7rem;
+}
